@@ -50,5 +50,10 @@ public class ImpiccatoAdvancedTest {
 		String parolaCorrente = new String(imp.getParolaCorrente());
 		assertEquals(tmp, parolaCorrente);
 	}
+	
+	@Test
+	public void test1() {
+		System.out.println("sono test 1.");
+	}
 
 }
